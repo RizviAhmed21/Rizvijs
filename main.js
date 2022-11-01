@@ -62,32 +62,43 @@
 
 // [Local variable scope]
 
-function myFun(){
+// function myFun(){
 
-    var name="rizvi Ahmed";
+//     var name="rizvi Ahmed";
 
-    console.log(name)
-}
+//     console.log(name)
+// }
 
-myFun();
+// myFun();
 
 // [Global variable scope]
 
-var name="Hey what's up!";
+// var name="Hey what's up!";
 
-function myFun(){
+// function myFun(){
 
-    console.log(name)
-}
+//     console.log(name)
+// }
 
-myFun();
+// myFun();
 
 // another way
 
-var name="Hey what's up!";
+// var name="Hey what's up!";
 
-function myFun(){
+// function myFun(){
 
-}
+// }
 
-console.log(name)
+// console.log(name)
+
+
+
+// -------------11 Variable hoisting
+
+// name = "Rizvi Ahmed"
+// console.log(name);
+// var name;
+
+
+
